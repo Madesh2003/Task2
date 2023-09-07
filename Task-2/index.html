@@ -1,0 +1,376 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css"
+    integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.css"
+    integrity="sha512-5A8nwdMOWrSz20fDsjczgUidUBR8liPYU+WymTZP1lmY9G6Oc7HlZv156XqnsgNUzTyMefFTcsFH/tnJE/+xBg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="box">
+    <nav class="navbar navbar-expand-md fixed-top">
+      <div class="container-xl">
+        <a class="navbar-brand brandname" href="#">Hot Meals</a>
+        <h6 class="nav-items">Deliver to: <i class="fa fa-map-marker" aria-hidden="true"></i> Ashok Nagar,
+          Chennai-600013</h6>
+        <input type="search" placeholder="Search Food" class="nav-items searchbar"></a>
+        <button type="submit" class="nav-items login-btn"><b>Login</b></button>
+      </div>
+    </nav>
+  </div>
+
+
+  <div class="content1 w-100 d-flex">
+    <div class="container-md">
+      <div class="row">
+        <div class="col-md-6">
+          <div class="delivery-items"></div>
+          <div>
+            <h1 class="item1">Look at your far meals</h1>
+          </div>
+          <div>
+            <p class="item2">Within a few clicks, find meals that are accessible near you</p>
+          </div>
+          <div class="delivery-address">
+            <div class="delivery-pickup">
+              <h6 class="delivery"><i class="fa fa-motorcycle" aria-hidden="true"></i> Delivery</h6>
+              <h6 class="delivery"><i class="fas fa-shopping-bag"></i> Pickup</h6>
+            </div>
+            <div class="address-input">
+              <div><i class="fas fa-map-marker-alt"></i> <input type="text" placeholder="Enter Your Address"
+                  style="border: none;"></div>
+              <button type="submit" class="findfood-btn"><i class="fas fa-search"></i> Find Food</button>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <div class="mealsimg"><img src="assets/meals.png" alt=""></div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!--                           Foods-card                             -->
+
+  <div class="foodcard">
+    <div class="container-xl foodcard">
+      <h4>What's on your mind?</h4>
+      <div class="row">
+        <div class="col-md-3">
+          <div class="card food-card-img" style="width: 14rem;">
+            <img class="card-img-top" src="assets/Dosa.jpeg" alt="Card image cap">
+            <div class="card-body card-body1">
+              <p class="card-text">Dosa</p>
+              <p class="card-text">&#8377; 49</p>
+            </div>
+            <div class="boxtime">
+              <p>30 min Delivery</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card food-card-img" style="width: 14rem;">
+            <img class="card-img-top" src="assets/Idli.jpeg" alt="Card image cap">
+            <div class="card-body card-body1">
+              <p class="card-text">Idli</p>
+              <p class="card-text">&#8377; 15</p>
+            </div>
+            <div class="boxtime">
+              <p>18 min Delivery</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card food-card-img" style="width: 14rem;">
+            <img class="card-img-top" src="assets/poori.jpeg" alt="Card image cap">
+            <div class="card-body card-body1">
+              <p class="card-text">Poori<sub> (set)</sub></p>
+              <p class="card-text">&#8377; 59</p>
+            </div>
+            <div class="boxtime">
+              <p>20 min Delivery</p>
+            </div>
+          </div>
+        </div>
+        <div class="col-md-3">
+          <div class="card food-card-img" style="width: 14rem;">
+            <img class="card-img-top" src="assets/venpongal.jpeg" alt="Card image cap">
+            <div class="card-body card-body1">
+              <p class="card-text">Venpongal</p>
+              <p class="card-text">&#8377; 55</p>
+            </div>
+            <div class="boxtime">
+              <p>35 mins Delivery</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="discount-track">
+      <div class="container-xl discount-track">
+        <h1>How does it work</h1>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="discounts">
+              <img src="/assets/discounts.png" alt="" height="100px" width="100px">
+              <h4>Daily Discounts</h4>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="discounts">
+              <img src="/assets/placeholder.png" alt="" height="100px" width="100px">
+              <h4>Live Tracking</h4>
+            </div>
+          </div>
+          <div class="col-md-4">
+            <div class="discounts">
+              <img src="/assets/clock.png" alt="" height="100px" width="100px">
+              <h4>Quick Delivery</h4>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="search">
+      <div class="container-xl">
+        <p>Search by Food</p>
+      </div>
+    </div>
+
+    <div class="suggestion">
+      <div class="container-xl suggestion">
+        <div class="row">
+          <div class="cols-md-2">
+            <div class="card card2">
+              <img class="card-img-top" src="assets/biriyani.jpeg" alt="Card image cap">
+            </div>
+            <div class="card-body">
+              <p class="card-text text2">Biriyani</p>
+            </div>
+          </div>
+          <div class="cols-md-2">
+            <div class="card card2">
+              <img class="card-img-top" src="assets/Fried-rice.jpeg" alt="Card image cap">
+            </div>
+            <div class="card-body">
+              <p class="card-text text2">Fried Rice</p>
+            </div>
+          </div>
+          <div class="cols-md-2">
+            <div class="card card2">
+              <img class="card-img-top" src="assets/kothu parota.webp" alt="Card image cap">
+            </div>
+            <div class="card-body">
+              <p class="card-text text2">Kothu Parota</p>
+            </div>
+          </div>
+          <div class="cols-md-2">
+            <div class="card card2">
+              <img class="card-img-top" src="assets/noodles.jpg" alt="Card image cap">
+            </div>
+            <div class="card-body">
+              <p class="card-text text2">Noodles</p>
+            </div>
+          </div>
+          <div class="cols-md-2">
+            <div class="card card2">
+              <img class="card-img-top" src="assets/shawarma.jpg" alt="Card image cap">
+            </div>
+            <div class="card-body">
+              <p class="card-text text2">Shawarma</p>
+            </div>
+          </div>
+          <div class="cols-md-2">
+            <div class="card card2">
+              <img class="card-img-top" src="assets/grilled chicken.jpg" alt="Card image cap">
+            </div>
+            <div class="card-body">
+              <p class="card-text text2">Grilled chicken</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+
+    <div class="deals">
+      <div class="container-xl">
+        <div class="row">
+          <div class="col-md-6">
+            <div class="bestdeals">
+              <h1>Best Deals <font color="#FFB20E">Delicious Biryani Combo</font>
+              </h1>
+              <p>Order And Taste Our Biryani And Fall In Love With It...</p>
+              <button type="submit">PROCEED TO ORDER ></button>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <div class="card card-biryaniimg">
+              <img src="assets/biriyanicombo.webp" alt="Biryanicombo" style="height: auto; min-width: 100%;">
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="popularitems">
+      <div class="container-xl popularitems1">
+        <h1>Popular Items</h1>
+        <h2>SNACKS</h2>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card snacks" style="width: 14rem;">
+              <img src="assets/murukku.jpeg" alt="">
+              <div class="card-body card-body2">
+                <p>MURUKKU</p>
+                <button type="submit">ORDER NOW</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card snacks" style="width: 14rem;">
+              <img src="assets/vada.jpeg" alt="">
+              <div class="card-body card-body2">
+                <p>VADA</p>
+                <button type="submit">ORDER NOW</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card snacks" style="width: 14rem;">
+              <img src="assets/paniyaram.jpeg" alt="">
+              <div class="card-body card-body2">
+                <p>PANIYARAM</p>
+                <button type="submit">ORDER NOW</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card snacks" style="width: 14rem;">
+              <img src="assets/pakoda.jpeg" alt="">
+              <div class="card-body card-body2">
+                <p>PAKODA</p>
+                <button type="submit">ORDER NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="popularitems">
+      <div class="container-xl popularitems2">
+        <h1>SWEETS</h1>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="card snacks" style="width: 14rem;">
+              <img src="assets/halwa.jpeg" alt="">
+              <div class="card-body card-body2">
+                <p>HALWA</p>
+                <button type="submit">ORDER NOW</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card snacks" style="width: 14rem;">
+              <img src="assets/gulab jamun.jpeg" alt="">
+              <div class="card-body card-body2">
+                <p>GULAB JAMUN</p>
+                <button type="submit">ORDER NOW</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card snacks" style="width: 14rem;">
+              <img src="assets/jalebi.jpeg" alt="">
+              <div class="card-body card-body2">
+                <p>jalebi</p>
+                <button type="submit">ORDER NOW</button>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="card snacks" style="width: 14rem;">
+              <img src="assets/Rasgulla.jpeg" alt="">
+              <div class="card-body card-body2">
+                <p>RASGULLA</p>
+                <button type="submit">ORDER NOW</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+
+    <div class="end w-100 d-flex">
+      <div class="container-xl">
+        <div class="border1">
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <div class="company-details">
+              <h5>COMPANY</h5>
+              <p>About us</p>
+              <p>Team</p>
+              <p>Careers</p>
+              <p>Blog</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="company-details">
+              <h5>CONTACT</h5>
+              <p>Help &AMP; Support</p>
+              <p>Partner with us</p>
+              <p>Ride with us</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="company-details">
+              <h5>LEGAL</h5>
+              <p>Terms &AMP; Conditiions</p>
+              <p>Refund &AMP; Cancellation</p>
+              <p>Privacy Policy</p>
+              <p>Cookie Policy</p>
+            </div>
+          </div>
+          <div class="col-md-3">
+            <div class="social-media">
+              <h5>FOLLOW US</h5>
+              <i class="fab fa-instagram fa-lg insta"></i>
+              <i class="fab fa-facebook fa-lg face"></i>
+              <i class="fab fa-twitter fa-lg twi"></i>
+              <p>Receive exclusive offers in your mailbox</p>
+            </div>
+            <div class="mailbox">
+              <input type="email" placeholder="Enter Your Email" class="mail-box">
+              <button type="submit">Subscribe</button>
+            </div>
+          </div>
+        </div>
+        <div class="border2">
+        </div>
+        <div class="rights">
+          <p>All rights Reserved &copy;</p>
+          <a href="https://github.com/Madesh2003" target="_blank">Developed by Madesh</a>
+        </div>
+      </div>
+    </div>
+</body>
+
+</html>

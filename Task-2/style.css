@@ -1,0 +1,462 @@
+.navbar {
+    width: 100%;
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(3px);
+}
+
+.brandname {
+    font-size: 50px;
+    font-family: cursive;
+    color: #FFB20E;
+}
+
+.brandname:hover {
+    color: #FFB20E;
+}
+
+.fa-map-marker {
+    color: #FFB20E
+}
+
+.searchbar {
+    border: none;
+    font-weight: 500;
+    color: #424242;
+    background-color: rgba(255, 255, 255, 0.4);
+    border-radius: 30px;
+}
+
+.searchbar::placeholder {
+    text-align: center;
+    padding: 10px;
+    font-style: italic;
+    font-size: 1em;
+}
+
+.login-btn {
+    border-radius: 5px;
+    color: #FFB20E;
+    padding: 5px 20px;
+    border: 2px solid #FFB20E;
+}
+
+.login-btn:hover {
+    border: none;
+    color: white;
+    background-color: #FC5E01;
+}
+
+.content1 {
+    background-image: linear-gradient(white, #C9BCF4);
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    background-size: cover;
+    height: auto;
+    min-width: 100%;
+}
+
+.item1 {
+    color: #3A3C47;
+    font-family: cursive;
+    padding-top: 200px;
+    padding-bottom: 10px;
+}
+
+.item2 {
+    color: #504F4F;
+    padding-bottom: 50px;
+}
+
+.delivery-address {
+    background-color: white;
+    border-radius: 30px;
+    margin-bottom: 100px;
+}
+
+.delivery-pickup {
+    display: flex;
+    justify-content: start;
+    padding-top: 30px;
+}
+
+.delivery,
+.address-input {
+    margin-left: 50px;
+}
+
+.delivery:hover {
+    cursor: pointer;
+    color: #F17228;
+}
+
+.address-input {
+    margin-top: 30px;
+}
+
+.fa-map-marker-alt {
+    color: #F17228;
+}
+
+.findfood-btn {
+    border: 1px solid #F17228;
+    background-color: #F17228;
+    min-width: 30%;
+    height: auto;
+    border-radius: 10px;
+    color: white;
+    font-weight: 500;
+    margin-bottom: 30px;
+    transition: transform .5s ease-in-out;
+}
+
+.findfood-btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 9px 3px rgba(241, 114, 40, 1),
+        0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+.address-input {
+    display: flex;
+    justify-content: space-between;
+    padding-right: 50px;
+}
+
+
+.mealsimg>img {
+    max-width: 100%;
+    height: auto;
+}
+
+.card {
+    padding: 0px 10px;
+    padding-bottom: 20px;
+}
+
+.foodcard>h4 {
+    padding: 50px;
+    font-weight: bold;
+}
+
+.card {
+    border: none;
+}
+
+.card>img {
+    border-radius: 10px;
+    transition: transform .5s ease;
+}
+
+.card-body1 {
+    display: flex;
+    justify-content: space-between;
+    font-weight: bold;
+    color: #424242;
+}
+
+.boxtime {
+    background-color: #FCE3D4;
+    width: fit-content;
+    height: 45px;
+    border-radius: 10px;
+}
+
+.boxtime>p {
+    padding-top: 10px;
+    padding-left: 8px;
+    padding-right: 8px;
+    font-weight: bold;
+    color: #F17228;
+}
+
+.discount-track {
+    padding-bottom: 50px;
+}
+
+.discount-track>h1 {
+    text-align: center;
+    color: #F17228;
+    font-weight: 700;
+    padding: 100px;
+}
+
+.discounts,
+.locationtrack {
+    display: flex;
+    align-items: center;
+}
+
+.discounts>h4 {
+    font-weight: bold;
+    padding: 50px;
+    background: #FC5E01;
+    font-size: 30px;
+    background: linear-gradient(to right, #FC5E01 0%, #FE9E00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.suggestion {
+    padding-bottom: 50px;
+}
+
+.search {
+    padding-bottom: 50px;
+    font-size: xx-large;
+    font-weight: bold;
+}
+
+.suggestion>div {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card2 {
+    padding-right: 50px;
+}
+
+.card2>img {
+    border-radius: 60px;
+    height: 120px;
+    transition: transform .5s ease;
+    width: 120px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.card>img:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+    box-shadow: 0px 0px 19px 11px rgba(201, 188, 244, 1);
+}
+
+.text2 {
+    font-size: 14px;
+    font-weight: bold;
+    padding-left: 15px;
+    padding-bottom: 30px;
+}
+
+.deals {
+    padding-bottom: 50px;
+}
+
+.bestdeals>h1 {
+    font-weight: bold;
+}
+
+.bestdeals>p {
+    padding-top: 20px;
+    font-weight: 500;
+    font-size: 25px;
+    color: #929292;
+}
+
+.bestdeals>button {
+    border: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    color: white;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 15px;
+    background-image: linear-gradient(to right, #FFAB00 0%, #FF9301 100%);
+    height: 60px;
+    min-width: 100%;
+    transition: transform .5s ease-in-out;
+}
+
+.bestdeals>button:hover {
+    transform: scale(0.9);
+    box-shadow: 0px 0px 26px 3px rgba(241, 114, 40, 1),
+        0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+.bestdeals>img {
+    max-width: 100%;
+    height: auto;
+}
+
+.popularitems1>h1 {
+    text-align: center;
+    font-weight: bold;
+    padding-bottom: 30px;
+}
+
+.popularitems1>h2 {
+    background: linear-gradient(to right, #FC5E01 0%, #FE9E00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.popularitems2>h1 {
+    background: linear-gradient(to right, #FC5E01 0%, #FE9E00 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    padding-bottom: 30px;
+    font-weight: bold;
+}
+
+.snacks {
+    padding-bottom: 50px;
+}
+
+.card-body2>p {
+    text-align: center;
+    color: #424242;
+    font-weight: bold;
+}
+
+.card-body2>button {
+    border: none;
+    color: white;
+    background-color: #F17228;
+    width: 100%;
+    border-radius: 30px;
+    height: 40px;
+    transition: transform .5s ease-in-out;
+}
+
+.card-body2>button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 10px 5px rgba(241, 114, 40, 1),
+        0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+
+.popularitems2 {
+    padding-bottom: 50px;
+}
+
+.end {
+    background-color: #090D12;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.company-details {
+    padding-bottom: 30px;
+}
+
+.company-details>h5 {
+    color: white;
+    font-weight: bold;
+    padding-bottom: 20px;
+}
+
+.company-details>p {
+    color: white;
+}
+
+.social-media>h5 {
+    color: #97989A;
+    font-weight: bold;
+    font-size: small;
+    padding-bottom: 20px;
+}
+
+.insta {
+    color: #525558;
+    padding-right: 10px;
+    transition: transform .5s ease-in-out;
+}
+
+.insta:hover {
+    transform: scale(1.2);
+    color: #C42A72;
+}
+
+.face {
+    color: #525558;
+    padding-left: 10px;
+    padding-right: 10px;
+    transition: transform .5s ease-in-out;
+}
+
+.face:hover {
+    transform: scale(1.2);
+    color: #1977F3;
+}
+
+.twi {
+    color: #525558;
+    padding-left: 10px;
+    padding: 10px;
+    transition: transform .5s ease-in-out;
+}
+
+.twi:hover {
+    transform: scale(1.2);
+    color: #28AAE1;
+}
+
+.mail {
+    color: #ADADAD;
+}
+
+.mailbox {
+    padding-bottom: 30px;
+}
+
+.social-media>p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color: #BBBBBB;
+}
+
+.mailbox>input {
+    border-radius: 5px;
+    border: none;
+    height: 40px;
+    width: 160px;
+    background-color: #424242;
+}
+
+.mail-box::placeholder {
+    text-align: center;
+}
+
+.mailbox>button {
+    color: white;
+    font-size: 12px;
+    font-weight: 500;
+    border: none;
+    background-color: #ED9600;
+    border-radius: 5px;
+    transition: transform .5s ease-in-out;
+}
+
+.mailbox>button:hover {
+    transform: scale(1.1);
+    box-shadow: 0px 0px 5px 3px rgba(255, 170, 0, 1),
+        0px 25px 20px -20px rgba(0, 0, 0, 0.45);
+}
+
+.mailbox {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rights {
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding-top: 30px;
+    padding-bottom: 10px;
+}
+
+.rights>a {
+    text-decoration: none;
+    color: white !important;
+}
+
+.border1 {
+    border-top: 2px solid #424242;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.border2 {
+    border-top: 2px solid #424242;
+}
